@@ -55,10 +55,6 @@ body {
 }
 
 /*Navigation Bar*/
-.navbar-brand {
-  font-size: 3rem;
-  font-family: 'Grandstander', cursive;
-}
 
 .navbar {
   padding-bottom: 4.5rem;
@@ -131,6 +127,7 @@ font-size: 1.5rem;
 .icon-feature {
   margin-bottom: 1rem;
   color: #440a67;
+
 }
 
 
@@ -176,6 +173,7 @@ p {
   background-color: #f6e5e9;
   height: 35rem;
   color: #fff;
+  height: auto;
 }
 
 h2 {
@@ -237,7 +235,7 @@ h2 {
   border-radius: 6px;
   cursor: pointer;
   transition: all 0.3s ease;
-  height: 25rem;
+  height: auto;
   padding: 5% 15%;
   /* height: 40rem; */
   /* width: 23rem; */
@@ -296,7 +294,7 @@ h2 {
 .contact{
    padding: 5% 15%;
    background-color: #b4aee8 ;
-   height: 40rem;
+   height: 45rem;
   align-items: center;
 
 }
@@ -415,20 +413,70 @@ h2 {
    align-items: center;
  }
  .title {
-    height: auto;
+  height: auto;
   text-align: center;
+}
+.nav-item .nav-link{
+  font-size: 3rem;
+  }
+  .navbar{
+    align-items: center;
+  }
+   .navbar-toggler-icon{
+    height: 6rem;
+    width: 6rem;
+  }
+  .color , .head{
+    font-size: 5rem;
+  }
+  .header{
+    height: auto;
   }
 
-  .aboutsection{
-    height: 53rem;
+/* .heading-center .heading-center-experience {
+  font-size: 10rem;
+} */
+.cta-heading{
+  font-size: 3rem;
+}
+.aboutsection{
+    height: auto;
   }
+
+.large {
+  font-size: 3.5rem;
+}
+.large2{
+  font-size: 4rem;
+}
+.large3{
+  font-size: 2.5rem;
+}
+.large5{
+  font-size: 2rem;
+}
+.large4{
+  font-size: 2.3rem;
+  color: #fff;
+}
+.large-img{
+  height: 18rem;
+  width: 18rem;
+}
+.testimonials .carousel-item{
+  height:50rem;
+}
+
   .features{
-    height: 75rem;
+    height: auto;
   }
   .feature-certificate{
-    height: 2.5rem;
-    width: 2.5rem;
+    height: 3rem;
+    width: 3rem;
   }
+
+
+
   .footer{
     padding: 1rem;
     text-align: center;
@@ -443,7 +491,11 @@ h2 {
   .small{
     font-size: 1.5rem;
   }
-  .pricing, .edu{
+  .pricing{
+    height: auto;
+  }
+
+   .edu{
     height: auto;
   }
 }
@@ -457,7 +509,7 @@ h2 {
    align-items: center;
  } */
  .aboutsection{
-   height: 60rem;
+   height: auto;
  }
  .small{
    font-size: 1.5rem;
@@ -471,7 +523,7 @@ h2 {
 }
 @media (max-width: 500px){
   .aboutsection{
-    height: 75rem;
+    height: auto;
   }
 
   .title {
