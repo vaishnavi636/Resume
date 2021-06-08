@@ -1,13 +1,15 @@
 /* .signinpage{
   padding-top: 5%;
 } */
+
+/* Head section */
 body {
   font-family: 'Baloo Tammudu 2', cursive;
 }
 
 .title {
-  background-color: #990099;
-  background-image: url("background4.jpg");
+  background-color: #93329E;
+  background-image: url("background5.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 3% 15%;
@@ -18,11 +20,11 @@ body {
 .heading-center {
   text-align: center;
   font-size: 2rem;
-  color:#fff;
+  color:#440a67;
 }
 
 .heading-center-experience {
-  color: black;
+  color: #fff;
   text-align: center;
   padding: 1rem;
   padding-top: 2rem;
@@ -33,8 +35,8 @@ body {
 }
 
 .aboutsection {
-  color: #fff;
-  background-color: #660066;
+  color: black;
+  background-color: #ffe3fe;
   padding: 5% 15%;
   text-align: center;
   height: 40rem;
@@ -97,7 +99,7 @@ body {
 .features {
   padding: 5% 15%;
   height: 40rem;
-  background-color: #660066;
+  background-color: #e4bad4;
 }
 
 .feature-box {
@@ -111,31 +113,31 @@ body {
   margin: 5px;
   text-align: center;
   background-color:#b300b3;
-  color:#fff;
+  color: #fff;
   padding: 2%;
-
 }
+
 .feature-text{
 text-align: center;
 font-size: 1.5rem;
-color:#fff;
+color:#0a1931;
 font-family: 'Baloo Tammudu 2', cursive;
 }
 
 .feather-links{
-color: #fff;
+color: #511281;
 font-size: 1.5rem;
 }
 .icon-feature {
   margin-bottom: 1rem;
-  color: #fff;
+  color: #440a67;
 }
 
 
 /* experience design */
 .experience {
   padding: 5% 15%;
-  background-color: black;
+  background-color: #e4fbff;
 }
 
 .expe {
@@ -171,7 +173,7 @@ p {
 /* Testimonials */
 .testimonials {
   text-align: center;
-  background-color: #b300b3;
+  background-color: #f6e5e9;
   height: 35rem;
   color: #fff;
 }
@@ -230,12 +232,14 @@ h2 {
 }
 
 .edu {
-  background: #b300b3;
+  background: #ac66cc;
   text-align: center;
   border-radius: 6px;
   cursor: pointer;
   transition: all 0.3s ease;
   height: 25rem;
+  padding: 5% 15%;
+  /* height: 40rem; */
   /* width: 23rem; */
   margin-top: 20px;
 }
@@ -244,7 +248,7 @@ h2 {
   background: #660066;
 }
 .pricing{
-  background-color: black;
+  background-color: #ffe3fe;
 
 }
 .pricing .col .card:hover i {
@@ -288,119 +292,20 @@ h2 {
   text-align: center;
 }
 
-
-
-@media(max-width: 1024px) {
-  .title {
-    text-align: center;
-  }
-
-.skill-image{
-  height: 10rem;
-  width: 10rem;
-}
-  .head {
-    text-align: center;
-  }
-
-  .header {
-    height: 50rem;
-  }
-
-  .color {
-    font-size: 2rem;
-  }
-
-  .aboutsection {
-    height: 40rem;
-  }
-
-  .title-image {
-    transform: rotate(0);
-    margin-right: 30px;
-  }
-
-  .features {
-    height: 80rem;
-  }
-
-  .experience {
-    height: 70rem;
-  }
-.skill-certificate{
-  height: 100rem;
-}
-.testimonials{
-    height: 35rem;
-}
-  .pricing {
-    height: 73rem;
-  }
-
-}
-
-@media(max-width: 980px) {
-  .title {
-    text-align: center;
-  }
-
-
-  .head {
-    text-align: center;
-  }
-
-  .header {
-    height: 50rem;
-  }
-
-  .color {
-    font-size: 2rem;
-  }
-
-  .aboutsection {
-    height: 50rem;
-  }
-
-  .title-image {
-    transform: rotate(0);
-    margin-right: 30px;
-  }
-
-  .features {
-    height: 80rem;
-  }
-
-  .experience {
-    height: 70rem;
-  }
-.skill-certificate{
-  height: 100rem;
-}
-.testimonials{
-    height: 35rem;
-}
-  .pricing {
-    height: 63rem;
-  }
-
-}
-
-
-
-
-
 /* contact section  */
 .contact{
    padding: 5% 15%;
-   background-color: #b300b3 ;
+   background-color: #b4aee8 ;
    height: 40rem;
   align-items: center;
 
 }
 .contact-content{
-  color: #fff;
-    font-family: 'Lobster', cursive;
-  height: 2rem;
+  color: #000000;
+  font-family: 'Lobster', cursive;
+  height: 3rem;
+  font-size: 2rem;
+
 
 }
 
@@ -410,13 +315,11 @@ h2 {
 
 }
 
-
-
 /* filp card */
 /* skills section */
 .skill-certificate {
   padding: 5% 15%;
-  background-color: #b300b3 ;
+  background-color: #bc6ff1 ;
 }
 
 .skill-image {
@@ -425,9 +328,151 @@ h2 {
   width: 15rem;
 }
 .skill1{
-  color: black;
+  color: #000000;
   font-size: 1.5rem;
 }
 .skill-certificate:hover{
-  background-color: #660066;
+  background-color: #602080;
   }
+
+/* Media responsive  */
+
+
+
+@media (max-width: 1104px){
+  /* title */
+  .title-image {
+   transform: rotate(0);
+   margin-right: 30px;
+ }
+ .title {
+    text-align: center;
+    height: 43rem;
+
+  }
+  .color {
+    font-size: 3rem;
+  }
+/* title end */
+/* about section */
+
+.cta-heading{
+  font-size: 2rem;
+}
+.aboutsection{
+  height: 53rem;
+}
+.heading-center{
+    font-size: 2.3rem;
+}
+/* about section end */
+/* experience section */
+.experience{
+  height:
+}
+
+.skill-image{
+  height: 10rem;
+  width: 10rem;
+}
+
+
+  .head {
+    text-align: center;
+  }
+
+  .header {
+    height: 50rem;
+  }
+.nav-item {
+    padding:  5px;
+    font-size: 2rem;
+  }
+  .footer{
+    padding: 1rem;
+    text-align: center;
+  }
+  .features{
+    height: 40rem;
+  }
+  .contact{
+    height: 55rem;
+  }
+  .contact-content{
+    height: 2rem;
+      margin-bottom: 3rem;
+
+  }
+}
+
+
+@media (max-width: 991px){
+  .title-image {
+   transform: rotate(0);
+   margin-right: 30px;
+   align-items: center;
+ }
+ .title {
+    text-align: center;
+    height: auto;
+
+  }
+
+  .aboutsection{
+    height: 60rem;
+  }
+  .features{
+    height: 70rem;
+  }
+  .feature-certificate{
+    height: 2.5rem;
+    width: 2.5rem;
+  }
+  .footer{
+    padding: 1rem;
+    text-align: center;
+  }
+  .contact{
+    height: 50rem;
+  }
+  .contact-content{
+    height: 2rem;
+  margin-bottom: 3rem;
+  }
+  .small{
+    font-size: 1.5rem;
+  }
+  .pricing, .edu{
+    height: auto;
+  }
+}
+
+
+
+@media (max-width: 690px){
+  .title-image {
+   transform: rotate(0);
+   margin-right: 30px;
+   align-items: center;
+ }
+ .aboutsection{
+   height: 60rem;
+ }
+ .small{
+   font-size: 1.5rem;
+ }
+
+}
+@media (max-width: 500px){
+  .aboutsection{
+    height: 75rem;
+  }
+  .title {
+     text-align: center;
+     height: auto;
+
+   }
+
+
+  }
+}
