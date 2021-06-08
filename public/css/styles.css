@@ -344,10 +344,12 @@ h2 {
   .title-image {
    transform: rotate(0);
    margin-right: 30px;
+  align-items: center;
  }
+
  .title {
     text-align: center;
-    height: 43rem;
+    height: auto;
 
   }
   .color {
@@ -360,7 +362,7 @@ h2 {
   font-size: 2rem;
 }
 .aboutsection{
-  height: 53rem;
+  height: 50rem;
 }
 .heading-center{
     font-size: 2.3rem;
@@ -413,16 +415,15 @@ h2 {
    align-items: center;
  }
  .title {
-    text-align: center;
     height: auto;
-
+  text-align: center;
   }
 
   .aboutsection{
-    height: 60rem;
+    height: 53rem;
   }
   .features{
-    height: 70rem;
+    height: 75rem;
   }
   .feature-certificate{
     height: 2.5rem;
@@ -450,29 +451,39 @@ h2 {
 
 
 @media (max-width: 690px){
-  .title-image {
+  /* .title-image {
    transform: rotate(0);
    margin-right: 30px;
    align-items: center;
- }
+ } */
  .aboutsection{
    height: 60rem;
  }
  .small{
    font-size: 1.5rem;
  }
+ .title {
+    text-align: center;
+    height: auto;
+
+  }
 
 }
 @media (max-width: 500px){
   .aboutsection{
     height: 75rem;
   }
+
   .title {
      text-align: center;
      height: auto;
 
    }
-
+   .title-image {
+    transform: rotate(0);
+    margin-right: 30px;
+    align-items: center;
+  }
 
   }
 }
