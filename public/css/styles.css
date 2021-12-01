@@ -78,9 +78,9 @@ body {
   /* margin: 3rem; */
   margin-left: 20px;
   border-radius: 30px;
-  transform: rotate(8deg);
+  transform: rotate(5deg);
   height: 35rem;
-  width: 25rem;
+  width: 30rem;
 }
 
 .icon-dec {
